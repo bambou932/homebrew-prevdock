@@ -2,8 +2,7 @@ cask "prevdock" do
   version "0.1.0"
   sha256 "7e145480ee6a32c8fea0d56467848ee98d1c256cef68ff0eada6410bb82032fa"
 
-  url "https://github.com/bambou932/prevDock/releases/download/v#{version}/prevDock-#{version}-arm64.zip",
-      verified: "github.com/bambou932/prevDock/"
+  url "https://github.com/bambou932/prevDock/releases/download/v#{version}/prevDock-#{version}-arm64.zip"
   name "prevDock"
   desc "Dock hover window previews for macOS"
   homepage "https://github.com/bambou932/prevDock"
